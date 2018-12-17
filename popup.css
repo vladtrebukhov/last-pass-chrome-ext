@@ -1,0 +1,9 @@
+.popup {
+    border-radius: 10px;
+    cursor: default;
+    display: none;
+    position: relative;
+    width: 200px;
+    height: 120px;
+    z-index: 100;
+}
