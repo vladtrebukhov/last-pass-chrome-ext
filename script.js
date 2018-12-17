@@ -31,6 +31,7 @@ function togglePopup() {
       });
     $(this).append(popup);
     $(".popup").slideFadeToggle();
+    $(".sound-effect")[0].currentTime = 0;
     $(".sound-effect")[0].play();
   }
 }
