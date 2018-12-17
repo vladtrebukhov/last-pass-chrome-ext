@@ -1,0 +1,5 @@
+.popup {
+    display: none;
+    position: relative;
+    z-index: 100;
+}
